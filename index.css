@@ -1,0 +1,21 @@
+
+/**
+ * info alexmoura logo.
+ */
+
+.logo[data-logo="info alexmoura"] {
+  width: 0;
+}
+
+.logo[data-logo="info alexmoura"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="info alexmoura"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="info alexmoura"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
